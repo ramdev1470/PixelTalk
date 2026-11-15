@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local evaluation outputs (keep directory with .gitkeep)
+results/*.json
+!results/.gitkeep
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
